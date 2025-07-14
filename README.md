@@ -206,6 +206,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR...
 ##  Author
 
 **Farouk Oyekunle**  
-📧 Available upon request
 
 > For questions or improvements, feel free to fork or open an issue.
