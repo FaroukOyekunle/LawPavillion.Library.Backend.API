@@ -1,10 +1,10 @@
-﻿# 📚 Law Pavilion Library Management System - ASP.NET Core Web API
+﻿#  Law Pavilion Library Management System
 
 This is a RESTful API built with ASP.NET Core (.NET 8.0) for managing books in a library. The API allows **authenticated users** to perform CRUD operations on book records, and includes user registration, login (with JWT), pagination, search, and Swagger documentation.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```plaintext
 │
@@ -26,7 +26,7 @@ This is a RESTful API built with ASP.NET Core (.NET 8.0) for managing books in a
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  CRUD operations on books
 -  JWT-based authentication
@@ -39,16 +39,16 @@ This is a RESTful API built with ASP.NET Core (.NET 8.0) for managing books in a
 
 ---
 
-## 🧾 API Endpoints
+##  API Endpoints
 
-### 🔐 Authentication
+###  Authentication
 
 | Endpoint             | Method | Payload              | Description          |
 |----------------------|--------|----------------------|----------------------|
 | `/api/auth/register` | POST   | UserRegistrationDto  | Register a new user  |
 | `/api/auth/login`    | POST   | UserLoginDto         | Login & get JWT token|
 
-### 📚 Books (Protected with [Authorize])
+###  Books (Protected with [Authorize])
 
 | Endpoint                          | Method | Payload         | Description             |
 |-----------------------------------|--------|------------------|-------------------------|
@@ -70,7 +70,7 @@ This is a RESTful API built with ASP.NET Core (.NET 8.0) for managing books in a
 - SQL Server (LocalDB or full version)
 - Git
 
-### 🔧 Setup Instructions
+###  Setup Instructions
 
 1. **Clone the repository**
 
@@ -109,7 +109,7 @@ dotnet run
 
 ---
 
-## 🧪 Testing the API
+##  Testing the API
 
 Navigate to:
 
@@ -125,7 +125,7 @@ Here you can:
 
 ---
 
-## 🛡️ Authentication Flow (JWT)
+##  Authentication Flow (JWT)
 
 1. Register a new user: `POST /api/auth/register`
 2. Login with user credentials: `POST /api/auth/login`
@@ -138,7 +138,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR...
 
 ---
 
-## 📘 Sample Payloads
+##  Sample Payloads
 
 ### Register
 ```json
@@ -168,7 +168,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR...
 
 ---
 
-## 🧰 Tools & Tech Stack
+##  Tools & Tech Stack
 
 - ASP.NET Core 8.0 Web API
 - Entity Framework Core + SQL Server
@@ -195,7 +195,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR...
 
 ---
 
-## 💡 Additional Features
+##  Additional Features
 
 -  `GET /api/books/search?q=term` – search books by title or author
 -  `GET /api/books/paginate?page=1&size=10` – supports pagination
@@ -203,7 +203,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR...
 
 ---
 
-## 🙌 Author
+##  Author
 
 **Farouk Oyekunle**  
 📧 Available upon request
